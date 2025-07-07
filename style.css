@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+form input[type="text"],
+form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form input[type="submit"] {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form input[type="submit"]:hover {
+  background-color: #2c4897;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card a {
+  margin-right: 10px;
+  color: #1e40af;
+  text-decoration: none;
+}
+.card a:hover {
+  text-decoration: underline;
+}
